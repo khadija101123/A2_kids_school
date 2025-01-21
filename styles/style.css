@@ -50,6 +50,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 0.75rem;
+    
 }
 .nav-menu{
     display: flex;
@@ -110,6 +111,7 @@ h2{
     border: none;
     border-radius: 12px;
     padding: 10px 47px;
+    cursor: pointer;
 }
 
 /* standard-curriculum-section */
@@ -254,7 +256,7 @@ h2{
     border-radius: 3rem;
 }
 .img-description{
-    padding: 34px 40px 48px;
+    padding: 2rem 2.5rem 3rem;
     font-weight: bold;
     font-size: 1.5rem;
 }
@@ -266,6 +268,10 @@ h2{
     font-size: 1rem;
     padding: 1.5rem 3rem 2rem ;
     
+}
+.img-4{
+    width: 100%;
+
 }
 .view-all-btn{
     text-align: center;
@@ -330,6 +336,29 @@ h2{
 
 
 @media screen and (max-width:576px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    /* navbar start */
+    .nav-bar{
+        border-bottom: 2px solid orange;
+    }
+    .name{
+        display: none;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .nav-title{
+     padding-right: 27.5rem;
+     padding-top: 1rem ;
+     
+    }
+    
     /* banner section responsive start */
     .banner{
         flex-direction: column-reverse;
@@ -345,9 +374,25 @@ h2{
         padding: 0 1rem ;
 
     }
+    .arrow{
+        padding-top: 20px;
+    }
 
 
 /* card section responsive end */
+
+.image-1{
+    display: none;
+}
+.img-card-div{
+    padding: 3rem 1rem;
+}
+
+.footer-div{
+    flex-direction: column;
+    padding: 4rem 1rem;
+}
+
 }
 
 
