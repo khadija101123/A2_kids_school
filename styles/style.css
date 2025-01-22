@@ -19,7 +19,14 @@
    
     font-style: normal;
   }
-  
+    
+  .marq{
+    width: 100%;
+    background-color: #95B226;
+    color: #DEF5FF;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0;
+  }
   /* shared-style */
 .orange{
     color: orange;
@@ -44,6 +51,9 @@
     /* margin: 0 auto; */
     
     
+}
+.menubar{
+    display: none;
 }
 .nav-title{
     display: flex;
@@ -343,21 +353,30 @@ h2{
     /* navbar start */
     .nav-bar{
         border-bottom: 2px solid orange;
+        justify-content: space-between;
+        padding: 1rem 1rem;
     }
     .name{
         display: none;
     }
     .nav-menu{
         display: none;
+       
     }
+    .menubar{
+        display: block;
+        align-items: center;
+        
+    }
+    
     .nav-btn{
         display: none;
     }
     .nav-title{
-     padding-right: 27.5rem;
+     /* padding-right: 27.5rem; */
      padding-top: 1rem ;
+     }
      
-    }
     
     /* banner section responsive start */
     .banner{
