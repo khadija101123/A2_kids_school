@@ -22,10 +22,11 @@
     
   .marq{
     width: 100%;
-    background-color: #95B226;
-    color: #DEF5FF;
+    background-color: #bdd84f;
+    color: rgb(118, 14, 118);
     margin-top: 0.5rem;
     padding: 0.5rem 0;
+    
   }
   /* shared-style */
 .orange{
