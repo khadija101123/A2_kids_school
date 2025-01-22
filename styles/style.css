@@ -353,7 +353,7 @@ h2{
     }
     /* navbar start */
     .nav-bar{
-        border-bottom: 2px solid orange;
+        border: 2px solid orange;
         justify-content: space-between;
         padding: 1rem 1rem;
     }
