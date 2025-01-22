@@ -384,6 +384,9 @@ h2{
         flex-direction: column-reverse;
 
     }
+    .banner-description{
+        text-align: center;
+    }
     /* banner section responsive end */
 
     /* card section responsive start */
